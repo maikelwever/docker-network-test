@@ -1,0 +1,8 @@
+[package]
+name = "network-test"
+version = "0.1.0"
+authors = ["Maikel Wever <maikelwever@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+trust-dns-resolver = { version = "^0.9", default-features=false }
